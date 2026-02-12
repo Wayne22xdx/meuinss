@@ -344,13 +344,13 @@ const App: React.FC = () => {
         {/* Company Image - Only if set */}
         {config.imageUrl && (
           <div className="w-48 h-32 flex items-center justify-center mb-4">
-              <img 
-                src={config.imageUrl} 
-                alt="Logo" 
-                className="max-w-full max-h-full object-contain drop-shadow-lg"
-              />
-          </div>
-        )}
+              <div className="w-48 h-32 flex items-center justify-center mb-4">
+  <img
+    src="https://i.imgur.com/7QbXz9R.png"
+    alt="Logo Meu INSS"
+    className="max-w-full max-h-full object-contain drop-shadow-lg"
+  />
+</div>
 
         {/* Caption - Only if set */}
         {config.caption && (
